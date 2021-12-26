@@ -1,0 +1,153 @@
+.contact{
+    width:100%;
+    background:#080c1f;
+    color:#ffffff;
+  
+}
+.topSection{
+/* background:crimson; */
+display:flex;
+justify-content:flex-end;
+align-items:center;
+flex-direction:row
+}
+.rightContact{
+
+    width: 50%;
+}
+
+.form > *{
+    margin-top:25px;
+}
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.sendButton{
+    background:rgb(0, 255, 191);
+    border:none;
+    padding:12px 20px;
+    width:92%;
+    border-radius:4px;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:15px;
+    font-weight:bold;
+    font-size:1.1rem;
+}
+.sendButton:hover{
+    background:rgb(0, 228, 171);
+
+}
+.sendButton:focus{
+    transform:scaleX(1.01);
+}
+input, textarea{
+    outline:none;
+    cursor:pointer;
+    width:90%;
+    background:rgba(0,0,0,0.2);
+    color:white;
+    border:1px solid rgb(206, 206, 206);
+    border-radius:2px;
+    padding-left:5px;
+    transition:0.3s;
+}
+input{
+    height:50px;
+    font-family:'Poppins',sans-serif
+}
+input:focus, textarea:focus{
+    /* box-shadow: 0 0 20px rgba(255,255,255,0.2); */
+    background:rgba(0,0,0,0.3);
+    border:1.6px solid rgb(206, 206, 206);
+}
+input::placeholder, textarea::placeholder{
+    color:rgba(255,255,255,0.2);
+}
+textarea{
+    height:200px;
+}
+.infoInput{
+    padding-left:10px;
+    padding-top:5px;
+}
+.leftContact{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:calc(100vh - 55px)
+}
+
+.socialIcons{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:inherit;
+    position:absolute;
+    top:280%;
+    right:45%
+}
+.socialIcons > a {
+    margin-top:40px;
+    font-size:30px;
+    width:60px;
+    text-align:center;
+    transition:0.3s;
+    cursor:pointer;
+    color:white;
+}
+.icon{
+    padding:10px 15px;
+    transition:0.3s;
+    border-radius:2px;
+}
+.fab.fa-discord:hover{
+    color:#5865F2;
+    background:white;
+
+}
+.fab.fa-youtube:hover{
+    color:red;
+    background:white;
+}
+.fab.fa-twitter:hover{
+    color:#1DA1F2;
+    background:white;
+}
+.fullName::placeholder, .fullName{
+ font-size:14px
+}
+.contactMe{
+    font-size:30px;
+    margin-bottom:10px;
+    font-family:'Poppins',sans-serif;
+    position:relative;
+    right:30px;
+    
+}
+.getInTouch{
+    font-family:'Poppins',sans-serif;
+    font-size:40px;
+    position:relative;
+    left:60px;
+}
+.bottomSection{
+    display:flex;
+    justify-content:center;
+    width:50%;
+    position:relative;
+    bottom:40px;
+}
+.bottomSection > p{
+    font-size:13px;
+    margin:15px;
+    margin-left:40px;
+}
+

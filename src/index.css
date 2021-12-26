@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  /* scroll-snap-type: y mandatory; */
+  scroll-behavior: smooth;
+}
+body{
+  background:rgb(18,23,35);
+  color:white;
+  font-family:sans-serif;
+}
+/* #161616 */
+/* rgb(4, 9, 41) */
+
+.lightMode{
+  background:rgba(255,255,255,0.3)
+}
+.ytLink{
+  text-decoration:none;
+  color:black;
+}
+::-webkit-scrollbar{
+  display:none;
+}
+.home{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  
+}
+.service{
+  width:100%;
+ 
+}
+.sections{
+  width:102.5%;
+  height:calc(100vh - 55px);
+  position:relative;
+  right:15px;
+}
+
+.sections  > *{
+width:100vw;
+height:calc(100vh - 55px);
+scroll-snap-align:start;
+}
+
